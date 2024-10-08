@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "How are you?", "Hey"],
+      "responses": ["Hello!", "Hi there!", "How can I assist you today?"]
+    },
+    {
+      "tag": "CourseInquiry",
+      "patterns": ["What courses do you offer?", "Tell me about the courses", "Available courses"],
+      "responses": ["We offer a variety of courses such as Math, Physics, Computer Science."]
+    },
+    {
+      "tag": "ScheduleInquiry",
+      "patterns": ["Can you show me the schedule?", "What are the class timings?", "When does the semester start?"],
+      "responses": ["Classes are from 9 AM to 5 PM.", "The semester starts on September 1st."]
+    }
+  ]
+}
